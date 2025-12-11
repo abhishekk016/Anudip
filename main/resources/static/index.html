@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mood Music — Static</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mood-based Music Suggestions</h1>
+
+    <div class="mood-buttons">
+      <button data-mood="happy">Happy</button>
+      <button data-mood="sad">Sad</button>
+      <button data-mood="relaxed">Relaxed</button>
+      <button data-mood="energetic">Energetic</button>
+    </div>
+
+    <div class="custom">
+      <label for="moodInput">Or type a mood:</label>
+      <input id="moodInput" placeholder="e.g., happy" />
+      <button id="suggestBtn">Suggest</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
